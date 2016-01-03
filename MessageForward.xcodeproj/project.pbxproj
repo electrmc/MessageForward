@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4CA3C9C61C2679D5005D8626 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C9C51C2679D5005D8626 /* main.m */; };
+		4CA3C9CE1C267A16005D8626 /* MsgDynamicForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C9CD1C267A16005D8626 /* MsgDynamicForward.m */; };
+		4CA3C9D11C267E57005D8626 /* MsgFastForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C9D01C267E57005D8626 /* MsgFastForward.m */; };
+		4CA3C9D41C284AA7005D8626 /* MsgNormalForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C9D31C284AA7005D8626 /* MsgNormalForward.m */; };
+		4CA3C9D71C29AEF8005D8626 /* ForwardMethodObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3C9D61C29AEF8005D8626 /* ForwardMethodObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		4CA3C9C21C2679D5005D8626 /* MessageForward */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MessageForward; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA3C9C51C2679D5005D8626 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CA3C9CC1C267A16005D8626 /* MsgDynamicForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgDynamicForward.h; sourceTree = "<group>"; };
+		4CA3C9CD1C267A16005D8626 /* MsgDynamicForward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgDynamicForward.m; sourceTree = "<group>"; };
+		4CA3C9CF1C267E57005D8626 /* MsgFastForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgFastForward.h; sourceTree = "<group>"; };
+		4CA3C9D01C267E57005D8626 /* MsgFastForward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgFastForward.m; sourceTree = "<group>"; };
+		4CA3C9D21C284AA7005D8626 /* MsgNormalForward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgNormalForward.h; sourceTree = "<group>"; };
+		4CA3C9D31C284AA7005D8626 /* MsgNormalForward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgNormalForward.m; sourceTree = "<group>"; };
+		4CA3C9D51C29AEF8005D8626 /* ForwardMethodObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardMethodObject.h; sourceTree = "<group>"; };
+		4CA3C9D61C29AEF8005D8626 /* ForwardMethodObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardMethodObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				4CA3C9C51C2679D5005D8626 /* main.m */,
+				4CA3C9D51C29AEF8005D8626 /* ForwardMethodObject.h */,
+				4CA3C9D61C29AEF8005D8626 /* ForwardMethodObject.m */,
+				4CA3C9CC1C267A16005D8626 /* MsgDynamicForward.h */,
+				4CA3C9CD1C267A16005D8626 /* MsgDynamicForward.m */,
+				4CA3C9CF1C267E57005D8626 /* MsgFastForward.h */,
+				4CA3C9D01C267E57005D8626 /* MsgFastForward.m */,
+				4CA3C9D21C284AA7005D8626 /* MsgNormalForward.h */,
+				4CA3C9D31C284AA7005D8626 /* MsgNormalForward.m */,
 			);
 			path = MessageForward;
 			sourceTree = "<group>";
@@ -119,6 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA3C9C61C2679D5005D8626 /* main.m in Sources */,
+				4CA3C9CE1C267A16005D8626 /* MsgDynamicForward.m in Sources */,
+				4CA3C9D41C284AA7005D8626 /* MsgNormalForward.m in Sources */,
+				4CA3C9D71C29AEF8005D8626 /* ForwardMethodObject.m in Sources */,
+				4CA3C9D11C267E57005D8626 /* MsgFastForward.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +261,7 @@
 				4CA3C9CB1C2679D5005D8626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
